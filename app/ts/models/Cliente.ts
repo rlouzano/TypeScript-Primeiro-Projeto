@@ -1,4 +1,4 @@
-class Cliente {
+export class Cliente {
 
     constructor(private _nome: string, private _rg: string) { }
 

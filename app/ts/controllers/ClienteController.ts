@@ -1,4 +1,9 @@
-class ClienteController {
+import {Cliente} from "../models/Cliente";
+import {ListaClientes} from "../models/ListaClientes";
+import {ClienteView} from "../views/ClienteView";
+
+
+export class ClienteController {
 
     private inputNome: HTMLInputElement;
     private inputRg: HTMLInputElement;

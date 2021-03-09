@@ -1,4 +1,6 @@
-class ClienteView {
+import {ListaClientes} from "../models/ListaClientes"
+
+export class ClienteView {
     
     private _elemento: Element;
 

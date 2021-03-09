@@ -1,4 +1,6 @@
-class ListaClientes {
+import {Cliente} from "../models/Cliente";
+
+export class ListaClientes {
 
     private _listaClientes: Array<Cliente> = [];
 
