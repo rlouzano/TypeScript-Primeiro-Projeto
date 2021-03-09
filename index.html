@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <form id="forms">
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome Completo</label>
+                <input type="text" class="form-control" id="nome">
+            </div>
+            <div class="mb-3">
+                <label for="rg" class="form-label">RG</label>
+                <input type="text" class="form-control" id="rg">
+            </div>
+            <button type="submit" class="btn btn-primary">Entrar</button>
+        </form>
+        <table class="table table-info" id="table"></table>
+    </div>
+    <script src="app/js/bootstrap.min.js"></script>
+    <script src="app/js/models/Cliente.js"></script>
+    <script src="app/js/controllers/ClienteController.js"></script>
+    <script src="app/js/models/ListaClientes.js"></script>
+    <script src="app/js/views/ClienteView.js"></script>
+    <script src="app/js/app.js"></script>
+
+</body>
+
+</html>
